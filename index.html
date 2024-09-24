@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment donation</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="">
+    <header class="sticky top-0 ">
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16" />
+                      </svg>
+                    </div>
+                   
+                  </div>
+                  <a class="btn btn-xl font-bold text-3xl">Blog</a>
+                </div>
+                <div class="navbar-center  lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li class="font-bold text-5xl"><a>Donate Bangladesh</a></li>
+                    
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                    <a id="main-balance" class=" font-bold text-3xl">10000BDT</a>
+
+                </div>
+              </div>
+        </nav>
+    </header>
+    <main class="px-36">
+      <!-- button section -->
+<div class="flex justify-center gap-7 py-28">
+
+  <button class="btn btn-outline btn-secondary font-bold text-3xl">Donation</button>
+  <button class="btn btn-outline btn-secondary text-bold text-3xl">History </button>
+</div>
+<section class="hidden ">
+  <!-- donation i -->
+  <div class="hero bg-base-200 border rounded-xl ">
+    
+    <div class="hero-content flex-col lg:flex-row">
+<img src="assets/noakhali.png" alt="" srcset="">
+      <div>
+        <div id="noy-main-balance" class=" font-bold text-2xl ">500 </div>
+        <h1 class="text-5xl font-bold">Donate for Flood at Noakhali, Bangladesh</h1>
+        <p class="py-6">
+          The recent floods in Noakhali have caused significant damage to homes  infrastructure. Your donation will help provide essential supplies and  to those affected by this disaster. Every contribution, big or small, makes  difference. 
+          Please join us in suppor
+          ting the relief efforts and making a positive impact on the lives of those in need.
+        </p>
+        <input id="input-money-value" type="number" placeholder=" Donation amount" class="input input-bordered w-full " /><br><br>
+        <button id="noa-add-money" class="btn btn-primary font-bold text-xl w-full">Donate Now</button>
+      </div>
+    </div>
+  </div>
+
+ <!-- end -->
+  <!-- fe ni  donation start -->
+   <div class="py-6">
+    <div class="hero bg-base-200 border rounded-xl ">
+      <div class="hero-content flex-col lg:flex-row">
+  <img src="assets/feni.png" alt="" srcset="">
+        <div>
+          <div id="fai-main-money" class=" font-bold text-2xl ">500 BDT</div>
+
+          <h1 class="text-5xl font-bold">Donate for Flood Relief in Feni,Bangladesh</h1>
+          <p class="py-6">
+            The recent floods in Feni have devastated local communities, leading to severe disruption and loss. Your generous donation will help provide immediate aid, including food, clean water, and medical supplies, to those affected by this calamity. Together, we can offer crucial support and help rebuild lives in the aftermath of this disaster. Every contribution counts towards making a real difference.
+             Please consider donating today to assist those in urgent need.
+          </p>
+          <input id="input-fai-donation" type="text" placeholder="write Donation amount" class="input input-bordered w-full " /><br><br>
+          <button id="fai-add-money" class="btn btn-primary font-bold text-xl w-full">Donate Now</button>
+        </div>
+      </div>
+    </div>
+
+   </div>
+     <!-- fe ni end  -->
+
+     <!-- start aid -->
+     <div>
+      <div class="hero bg-base-200 border rounded-xl gap-x-6">
+        <div class="hero-content flex-col lg:flex-row">
+    <img src="assets/quota-protest.png" alt="" srcset="">
+          <div>
+            <div id="aid-main-money" class=" font-bold text-2xl ">100 BDT</div>
+
+            <h1 class="text-5xl font-bold">Aid for Injured in the Quota Movement</h1>
+            <p class="py-6">
+              The recent Quota movement has resulted in numerous injuries and significant hardship for many individuals. Your support is crucial in providing medical assistance, rehabilitation, and necessary supplies to those affected. By contributing, you help ensure that injured individuals receive the care and support they need during this challenging time. Every donation plays a vital role in alleviating their suffering and aiding in their recovery.
+               Please consider making a donation to support these brave individuals in their time of need.
+            </p>
+            <input id="input-aid-donation" type="text" placeholder="write Donation amount" class="input input-bordered w-full " /><br><br>
+            <button id="aid-add-money" class="btn btn-primary font-bold text-xl w-full">Donate Now</button>
+          </div>
+        </div>
+      </div>
+  
+     </div>
+      <!-- end aid -->
+      
+      <section>
+      <!-- donation history -->
+
+      <div id="donation-container">
+        <h3>donation history</h3>
+
+      </div>
+        <!-- donation end -->
+      </section>
+</section>
+
+    </main>
+    <script src="js/function.js"></script>
+    <script src="js/donation.js"></script>
+    <script src="js/aid.js"></script>
+</body>
+</html>
+
+
+
